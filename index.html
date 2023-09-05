@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>table</title>
+    <style>
+      .table,
+      th,
+      td {
+        border-collapse: collapse;
+        width: auto;
+        margin: 0rem 20rem;
+        padding: 2rem 5rem 2rem 1rem;
+      }
+      th {
+        background-color: blueviolet;
+        color: white;
+      }
+      h2 {
+        font-size: 2em;
+        text-align: center;
+        text-shadow: 2px 2px 5px blueviolet;
+      }
+      tr:nth-child(odd) {
+        background-color: rgb(155, 151, 151);
+      }
+      tr:hover {
+        background-color: crimson;
+      }
+    </style>
+  </head>
+  <body>
+    <h2>Default Table.</h2>
+    <div class="table">
+      <table>
+        <tr class="h">
+          <th>Ranks</th>
+          <th>Name</th>
+          <th>Runs</th>
+          <th>Centuries</th>
+          <th>Strike Rate</th>
+          <th>Avg</th>
+        </tr>
+        <tr class="one">
+          <td>1</td>
+          <td>Rohit</td>
+          <td>1000</td>
+          <td>29</td>
+          <td>97</td>
+          <td>55</td>
+        </tr>
+        <tr class="two">
+          <td>2</td>
+          <td>Virat</td>
+          <td>12000</td>
+          <td>40</td>
+          <td>91</td>
+          <td>49</td>
+        </tr>
+        <tr class="three">
+          <td>3</td>
+          <td>Rahul</td>
+          <td>5000</td>
+          <td>8</td>
+          <td>85</td>
+          <td>45</td>
+        </tr>
+        <tr class="four">
+          <td>4</td>
+          <td>Rishabh</td>
+          <td>4000</td>
+          <td>2</td>
+          <td>89</td>
+          <td>39</td>
+        </tr>
+      </table>
+    </div>
+    <br /><br />
+  </body>
+</html>
